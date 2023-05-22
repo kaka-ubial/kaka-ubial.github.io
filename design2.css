@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../imagens/back2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  font-size: 35px;
+}
+
+ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "VT323", monospace;
+}
+
+ul li a:hover {
+  color: rgb(0, 0, 255);
+  text-shadow: 2px 1px white;
+  text-emphasis-color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 255) 1px 2px;
+  font-family: "VT323", monospace;
+  font-weight: 500;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+}
+
+.col-01 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.col-02 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+  margin-left: 40px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  background-color: rgba(0, 60, 255, 0.612);
+  border-radius: 40px;
+  font-family: "Roboto", monospace;
+  padding: 30px 0 30px 0;
+  margin: 5px 20% 5px 20%;
+}
