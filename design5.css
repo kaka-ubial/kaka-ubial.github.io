@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../imagens/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding-top: 8px;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  font-size: 35px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "VT323", monospace;
+}
+
+ul li a:hover {
+  color: red;
+  text-shadow: 2px 1px white;
+  text-emphasis-color: white;
+}
+
+h1 {
+  color: red;
+  text-shadow: rgb(255, 255, 255) 1px 2px;
+  font-family: "VT323", monospace;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.formulario {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.mycontainer2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.btnred {
+  padding: 20px;
+  width: 22%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Roboto", monospace;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, #000000, red);
+  cursor: pointer;
+}
+
+.input {
+  padding: 20px;
+  width: 20%;
+  margin: 0.5px;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Roboto", monospace;
+}
+
+p {
+  font-family: "VT323", monospace;
+  color: white;
+}
+
+img:hover {
+  opacity: 0.5;
+}
